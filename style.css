@@ -1,0 +1,101 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images/dirt.png");
+    background-repeat: repeat;
+    image-rendering: crisp-edges;
+    color: white;
+    font-family: minecraft;
+    text-shadow: 2px 2px 1px black;
+    
+}
+a {
+    color: rgb(255, 166, 0);
+}
+header { 
+    background: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    font-family: minecraft;
+    font-size: 300%;
+    text-align: center;
+    
+    image-rendering: crisp-edges;
+    text-shadow: 4px 4px 1px black;
+    
+    color: white;
+    background-image: url(images/header_background.png);
+    background-position-x: center;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height: 200px;
+    
+}
+
+.headtag{
+    text-shadow: 4px 4px #000000A0;
+    font-size: 150%;
+    background-image: url("images/dirt.png");
+    background-repeat: repeat;
+    image-rendering: crisp-edges;
+    font-family: minecraft-big;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    
+    width: 100%;
+  }
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
+
+    
+}
+
+@font-face {
+    font-family: minecraft-big;
+    font-size: 150%;
+    src: url(Minecraft.ttf)
+}
+
+h2 {
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+.content {
+	margin: auto;
+  	width: 75%;
+}
+
+.linkbar {
+	background-image: url("images/stone.png");
+	padding-left: 4px;
+	padding-right: 4px;
+	display: inline-block;
+}
+
+.subtitle {
+    font-size: 50%;
+}
+
+.changelog {
+    box-sizing: border-box;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.bbutton {
+    font-family: minecraft;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.textfield {
+    font-family: minecraft;
+    background-color: black;
+    color: white;
+}
+
+
