@@ -41,6 +41,9 @@
             Please enter your E-mail, your Build Name (must not more than 15 Char.)
             <br>
             and your reason why you want to be part of the Closed Beta Test and then click "Submit"!
+            <br>
+            <br>
+            Please do not spam or your E-Mail may be ignored!
             <form action="#">
                 <input class="textfield" type="email" id="email"placeholder="E-Mail"/>
                 <br>
@@ -48,7 +51,9 @@
                 <br>
                 <textarea class="textfield" id="reason" cols="20" rows="5" placeholder="Please tell us why you want to join..."></textarea>
                 <br>
-                <button class="bbutton" type="submit"onclick="sendEmail()">Send</button>
+                <button id="subbutton" class="bbutton" type="submit"onclick="sendEmail()">Send</button>
+                <br>
+                <div id="error"></div>
             </form>
         </div>
     </body>
